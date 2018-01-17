@@ -56,7 +56,7 @@
 ## Finally print out a sentence that says 'The chance of rain in Seattle is (the number stored in chance_of_rain variable) percent'
 ## (You are doing predictive analysis here :-)
 
-  paste("The chance of rain in Seattle is ", chance_of_rain)
-  
+  print_chance_of_rain = paste("The chance of rain in Seattle is ", chance_of_rain)
+  print(print_chance_of_rain)
 ## bonus:
 ## how to make write this exercise in a function??
